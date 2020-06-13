@@ -2,7 +2,7 @@
 const signup = document.getElementById(`signup`);
 const submitButton = document.getElementById(`submitBtn`);
 const signUpForm = document.getElementById(`signup`);
-const BASE_URL = `https://immense-caverns-20545.herokuapp.com/createPassengerAccount`;
+const BASE_URL = `https://away-bus-api.herokuapp.com/createPassengerAccount`;
 
 let firstName, lastName, dateOfBirth, phoneNumber, email, profileImage = "", password;
 
