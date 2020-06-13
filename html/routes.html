@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>AwayBus</title>
+    <!-- FrontEnd Frameworks Css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mdb.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">AwayBus</a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-sm btn-dark waves-effect z-depth-0">Danger</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-sm btn-outline-dark waves-effect z-depth-0">Danger</button>
+                    </li>
+                </ul>
+                <!-- Links -->
+            </div>
+            <!-- Collapsible content -->
+
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <div class="container">
+        <form action="">
+            <div class="form-inline">
+                <div class="form-check mb-2 mr-sm-2">
+                    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                    <label class="form-check-label" for="inlineFormCheck">
+                  Remember me
+                </label>
+                </div>
+
+                <div class="form-check mb-2 mr-sm-2">
+                    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                    <label class="form-check-label" for="inlineFormCheck">
+                  Remember me
+                </label>
+                </div>
+            </div>
+
+            <div class="form-inline">
+                <!-- Departure Point -->
+                <div class="md-form mb-2 mr-sm-2">
+                    <input type="text" id="materialLoginFormEmail" class="form-control">
+                    <label for="materialLoginFormEmail">Departure Point</label>
+                </div>
+
+                <!-- Arrival Point -->
+                <div class="md-form mb-2 mr-sm-2">
+                    <input type="text" id="materialLoginFormPassword" class="form-control">
+                    <label for="materialLoginFormPassword">Arrival Point</label>
+                </div>
+
+                <!-- Departure Date -->
+                <div class="md-form mb-2 mr-sm-2">
+                    <input type="date" id="materialLoginFormPassword" class="form-control">
+                    <label for="materialLoginFormPassword">Departure Date</label>
+                </div>
+
+                <!-- Arrival Date -->
+                <div class="md-form mb-2 mr-sm-2">
+                    <input type="date" id="materialLoginFormPassword" class="form-control">
+                    <label for="materialLoginFormPassword">Arrival Date</label>
+                </div>
+
+                <div class="md-form mb-2 mr-sm-2">
+                    <button type="submit" class="btn btn-sm btn-dark waves-effect z-depth-0">Submit</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <p>Bus Routes</p>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Place Name</th>
+                    <th class="text-center" scope="col">Seats Available</th>
+                    <th class="text-center" scope="col">Estimated Time</th>
+                    <th class="text-center" scope="col">Pricing</th>
+                    <th class="text-right" scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        <h6>Place name</h6>
+                        <p class="text-muted">Bus Details</p>
+                    </th>
+                    <td>
+                        <h6 class="text-center">1</h6>
+                        <p class="text-muted text-center">Seats Available</p>
+                    </td>
+                    <td class="text-center">Otto</td>
+                    <td class="text-center">@mdo</td>
+                    <td class="text-right">
+                        <button class="btn btn-sm btn-outline-dark" type="button" data-toggle="modal" data-target="#centralModalSm">
+                            Submit
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <h6>Place name</h6>
+                        <p class="text-muted">Bus Details</p>
+                    </th>
+                    <td>
+                        <h6 class="text-center">24</h6>
+                        <p class="text-muted text-center">Seats Available</p>
+                    </td>
+                    <td class="text-center">Thornton</td>
+                    <td class="text-center">@fat</td>
+                    <td class="text-right">
+                        <button class="btn btn-sm btn-outline-dark" type="button" data-toggle="modal" data-target="#centralModalSm">
+                            Submit
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <h6>Place name</h6>
+                        <p class="text-muted">Bus Details</p>
+                    </th>
+                    <td>
+                        <h6 class="text-center">12</h6>
+                        <p class="text-muted text-center">Seats Available</p>
+                    </td>
+                    <td class="text-center">the Bird</td>
+                    <td class="text-center">@twitter</td>
+                    <td class="text-right">
+                        <button class="btn btn-sm btn-outline-dark" type="button" data-toggle="modal" data-target="#centralModalSm">
+                            Submit
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <!-- Central Modal Small -->
+    <div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title w-100" id="myModalLabel">Select Available Seats</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-12 col-md-5">
+                        <img class="card-img-top" src="holder.js/350x250" alt="Card image cap">
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <!--Card content-->
+                        <div class="card-body px-lg-5 pt-0">
+                            <!-- Form -->
+                            <form class="text-center" style="color: #757575;" action="#!">
+                                <div class="form-row mb-4">
+                                    <!-- Departure Point -->
+                                    <div class="col md-form">
+                                        <input type="text" id="materialDeparturePoint" class="form-control">
+                                        <label for="materialDeparturePoint">Departure Point</label>
+                                    </div>
+
+                                    <!-- Arrival Point-->
+                                    <div class="col md-form">
+                                        <input type="text" id="materialArrivalPoint" class="form-control">
+                                        <label for="materialArrivalPoint">Arrival Point</label>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-8 text-right">Selected seats</div>
+                                    <div class="col-4 text-right">AC 7234</div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-8 text-right">Free</div>
+                                    <div class="col-4 text-right">Ghc 30.00</div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-8 text-right">Total</div>
+                                    <div class="col-4 text-right">Ghc 30.00</div>
+                                </div>
+                                <!-- Sign in button -->
+                                <button class="btn btn-sm  btn-outline-dark btn-block my-4 waves-effect z-depth-0" type="submit">
+                                    Proceed To CheckOut
+                                </button>
+                            </form>
+                            <!-- Form -->
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-sm btn-outline-dark">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/holder.min.js "></script>
+    <script src="../js/jquery.min.js "></script>
+    <script src="../js/popper.min.js "></script>
+    <script src="../js/bootstrap.min.js "></script>
+    <script src="../js/mdb.min.js "></script>
+</body>
+
+</html>

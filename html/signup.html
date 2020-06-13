@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>AwayBus</title>
+    <!-- FrontEnd Frameworks Css -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/mdb.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid signUp">
+        <div class="row">
+            <div class="col-12 col-md-5 col-lg-4">
+                <!-- Material form register -->
+                <div class="card">
+
+                    <h5 class="card-header bg-dark white-text text-center py-4">
+                        <strong;>Sign Up To AwayBus</strong>
+                    </h5>
+
+                    <!--Card content-->
+                    <div class="card-body px-lg-5 pt-0">
+
+                        <!-- Form -->
+                        <form id="signup" class="text-center" style="color: #757575;" action="/signup">
+
+                            <div class="row userNameInfo">
+                                <div class="col">
+                                    <!-- First name -->
+                                    <div class="md-form">
+                                        <input type="text" id="firstName" class="form-control">
+                                        <label for="firstName">First name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Last name -->
+                                    <div class="md-form">
+                                        <input type="text" id="lastName" class="form-control">
+                                        <label for="lastName">Last name</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Date of Birth -->
+                            <div class="md-form">
+                                <input type="date" id="dateOfBirth" class="form-control" aria-describedby="dateOfBirthHelpBlock">
+                                <label for="dateOfBirth">Date Of Birth</label>
+                            </div>
+
+                            <!-- Phone number -->
+                            <div class="md-form">
+                                <input type="text" id="phoneNumber" class="form-control" aria-describedby="phoneNumberHelpBlock">
+                                <label for="phoneNumber">Phone number</label>
+                            </div>
+
+
+                            <!-- E-mail -->
+                            <div class="md-form mt-0">
+                                <input type="email" id="emailAddress" class="form-control">
+                                <label for="emailAddress">E-mail</label>
+                                <small id="emailAddressHelpBlock" class="form-text text-left text-muted mb-4">
+                                    Optional - for two step authentication
+                                </small>
+                            </div>
+
+
+                            <!-- Password -->
+                            <div class="md-form">
+                                <input type="password" id="password" class="form-control" aria-describedby="passwordHelpBlock">
+                                <label for="password">Password</label>
+                                <small id="passwordHelpBlock" class="form-text text-left text-muted mb-4">
+                                    At least 8 characters and 1 digit
+                                </small>
+                            </div>
+
+                            <div class="md-form">
+                                <input type="file" id="profileImg" class="" name="">
+                            </div>
+
+                            <!-- Sign up button -->
+                            <input id="submitBtn" class="btn btn-outline-dark btn-block my-4 waves-effect z-depth-0" type="submit" value="Sign Up">
+                            <hr>
+                            <div class="text-left">
+                                <!-- Remember me -->
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="rememberFormBlock">
+                                    <label class="form-check-label" for="rememberFormBlock">
+                                        By clicking <em>Sign up</em> you agree to our <a href="" target="_blank">terms of service</a>
+                                    </label>
+                                </div>
+                            </div>
+                            <hr>
+                            <label class="form-check-label" for="">
+                                Already Have An Account? <br> <a href="login.html">Login</a>
+                            </label>
+                        </form>
+                        <!-- Form -->
+
+                    </div>
+                </div>
+                <!-- Material form register -->
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/custom/signup.js"></script>
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/mdb.min.js"></script>
+</body>
+
+</html>
