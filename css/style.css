@@ -13,6 +13,13 @@
 
 /* ClLASSES */
 
+.form-inline,
+.md-form,
+.holder {
+    padding: 0;
+    margin: 0;
+}
+
 .sections {
     padding: 30px 0;
 }
