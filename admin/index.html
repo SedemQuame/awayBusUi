@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>AwayBus</title>
+    <!-- FrontEnd Frameworks Css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mdb.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!--Primary Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">AwayBus</a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-sm btn-dark waves-effect z-depth-0">Danger</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-sm btn-outline-dark waves-effect z-depth-0">Logout</button>
+                    </li>
+                </ul>
+                <!-- Links -->
+            </div>
+            <!-- Collapsible content -->
+
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <!-- Secondary Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+        <div class="container">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        Active Trips
+                        <span class="badge badge-danger ml-2">4</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Users
+                    <span class="badge badge-danger ml-2">4</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Drivers
+                    <span class="badge badge-danger ml-2">0</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Buses
+                    <span class="badge badge-danger ml-2">4</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Routes
+                    <span class="badge badge-danger ml-2">4</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Staff
+                    <span class="badge badge-danger ml-2">4</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Notifications
+                    <span class="badge badge-danger ml-2">4</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- Links -->
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <!-- Trip Querying Paramters -->
+                <div class="md-form">
+                    <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                        <a class="btn btn-outline-dark btn-sm" href="">Running Trips</a>
+                        <a class="btn btn-outline-dark btn-sm" href="">Pending Trips</a>
+                        <a class="btn btn-outline-dark btn-sm" href="">Create a Trip</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <!-- Search Forms -->
+                <form class="form-inline" action="" method="get">
+                    <div class="md-form mb-2 mr-sm-2">
+                        <input type="text" id="materialLoginFormEmail" class="form-control">
+                        <label for="materialLoginFormEmail">Search Trip</label>
+                    </div>
+
+                    <div class="md-form mb-2 mr-sm-2">
+                        <button type="submit" class="btn btn-sm btn-dark waves-effect z-depth-0">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="trip-list" class="container table-responsive text-nowrap">
+        <table class="table table-striped">
+            <thead class="black white-text">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Trip Name</th>
+                    <th scope="col">Departure Time</th>
+                    <th scope="col">Arrival Time</th>
+                    <th scope="col">Vehicle Capacity</th>
+                    <th scope="col">Booked Seats</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="align-middle" scope="row">1</th>
+                    <td class="align-middle">Accra to Kumasi</td>
+                    <td class="align-middle">7: 00am</td>
+                    <td class="align-middle">10: 30am</td>
+                    <td class="align-middle">45 seats</td>
+                    <td class="align-middle">22 seats</td>
+                    <td class="align-middle btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-sm btn-white">
+                            <img class="buttonImg" src="../img/restart.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-sm btn-white">
+                            <img class="buttonImg" src="../img/delete.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-sm btn-white">
+                            <img class="buttonImg" src="../img/view.svg" alt="">
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="align-middle" scope="row">2</th>
+                    <td class="align-middle">Accra to Kumasi</td>
+                    <td class="align-middle">7: 00am</td>
+                    <td class="align-middle">10: 30am</td>
+                    <td class="align-middle">45 seats</td>
+                    <td class="align-middle">22 seats</td>
+                    <td class="align-middle btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-sm btn-white">
+                            <img class="buttonImg" src="../img/restart.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-sm btn-white">
+                            <img class="buttonImg" src="../img/delete.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-sm btn-white">
+                            <img class="buttonImg" src="../img/view.svg" alt="">
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="align-middle" scope="row">3</th>
+                    <td class="align-middle">Accra to Kumasi</td>
+                    <td class="align-middle">7: 00am</td>
+                    <td class="align-middle">10: 30am</td>
+                    <td class="align-middle">45 seats</td>
+                    <td class="align-middle">22 seats</td>
+                    <td class="align-middle btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-sm btn-white">
+                            <img class="buttonImg" src="../img/restart.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-sm btn-white">
+                            <img class="buttonImg" src="../img/delete.svg" alt="">
+                        </button>
+                        <button type="button" class="btn btn-sm btn-white">
+                            <img class="buttonImg" src="../img/view.svg" alt="">
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/mdb.min.js"></script>
+</body>
+
+</html>
