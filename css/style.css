@@ -50,3 +50,13 @@ div {
 .userNameInfo {
     margin-bottom: -20px;
 }
+
+.busContainer {
+    border-radius: 0;
+    width: 70%;
+}
+
+.card-img-top {
+    width: 120px;
+    height: 80px;
+}

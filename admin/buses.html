@@ -14,54 +14,16 @@
 </head>
 
 <body>
-    <!--Primary Navbar-->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-            <!-- Navbar brand -->
-            <a class="navbar-brand" href="#">AwayBus</a>
-
-            <!-- Collapse button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="basicExampleNav">
-
-                <!-- Links -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-sm btn-dark waves-effect z-depth-0">Danger</button>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-sm btn-outline-dark waves-effect z-depth-0">Logout</button>
-                    </li>
-                </ul>
-                <!-- Links -->
-            </div>
-            <!-- Collapsible content -->
-
-        </div>
-    </nav>
-    <!--/.Navbar-->
-
-    <!-- Secondary Navbar-->
+    <!-- Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark primary-color">
         <div class="container">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="/admin/">AwayBus</a>
+
             <!-- Links -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">
+                    <a class="nav-link" href="#">
                         Active Trips
                         <span class="badge badge-danger ml-2">4</span>
                     </a>
@@ -73,8 +35,8 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="drivers.html">
-                        Drivers
+                    <a class="nav-link" href="staff.html">
+                        Staff
                     <span class="badge badge-danger ml-2">0</span>
                     </a>
                 </li>
@@ -91,12 +53,6 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="staff.html">
-                        Staff
-                    <span class="badge badge-danger ml-2">4</span>
-                    </a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="notifications">
                         Notifications
                     <span class="badge badge-danger ml-2">4</span>
@@ -104,10 +60,164 @@
                 </li>
             </ul>
             <!-- Links -->
+
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li> -->
+                <li class="nav-item">
+                    <button type="button" class="btn btn-sm btn-white waves-effect z-depth-0">Danger</button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-sm btn-white waves-effect z-depth-0">Logout</button>
+                </li>
+            </ul>
+            <!-- Links -->
         </div>
     </nav>
     <!--/.Navbar-->
 
+    <div class="container">
+        <h1 class="">Registered Buses</h1>
+        <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam necessitatibus perspiciatis cupiditate enim maxime eius soluta fuga, temporibus voluptates autem consequatur officia nulla labore cum dignissimos itaque aliquid possimus voluptatum!</p>
+        <hr class="my-4">
+
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="md-form input-group mb-4">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="material-addon2">
+                    <div class="input-group-append">
+                        <input id="material-addon2" class="btn btn-dark" type="submit" value="Search">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 text-right">
+                <a class="btn btn-dark" href="#">Create Bus</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="trip-list" class="container table-responsive text-nowrap">
+        <table class="table table-striped">
+            <thead class="black white-text">
+                <tr>
+                    <th class="text-left" scope="col">Bus Image</th>
+                    <th class="text-center" scope="col">Name</th>
+                    <th class="text-center" scope="col">Staff Info</th>
+                    <th class="text-center" scope="col">Contact Info</th>
+                    <th class="text-center" scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="busContainer">
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top" src="../img/gray.jpg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </td>
+                    <td class=" ">Sedem Quame Amekpewu</td>
+                    <td>
+                        <ul>
+                            <li>Staff Id: ekhsjhfkhf4hk345334535</li>
+                            <li>Staff Type: Driver</li>
+                            <li>Staff ...: </li>
+                        </ul>
+                    </td>
+                    <td class=" ">
+                        <ul>
+                            <li>Email: sedem.amekpewu.3@gmail.com</li>
+                            <li>Phone: 0546744163</li>
+                        </ul>
+                    </td>
+                    <td class="  btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-sm btn-white">
+                            View Details
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="busContainer">
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top" src="../img/gray.jpg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </td>
+                    <td class=" ">Sedem Quame Amekpewu</td>
+                    <td>
+                        <ul>
+                            <li>Staff Id: ekhsjhfkhf4hk345334535</li>
+                            <li>Staff Type: Driver</li>
+                            <li>Staff ...: </li>
+                        </ul>
+                    </td>
+                    <td class=" ">
+                        <ul>
+                            <li>Email: sedem.amekpewu.3@gmail.com</li>
+                            <li>Phone: 0546744163</li>
+                        </ul>
+                    </td>
+                    <td class="  btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-sm btn-white">
+                            View Details
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="busContainer">
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top" src="../img/gray.jpg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </td>
+                    <td class=" ">Sedem Quame Amekpewu</td>
+                    <td>
+                        <ul>
+                            <li>Staff Id: ekhsjhfkhf4hk345334535</li>
+                            <li>Staff Type: Driver</li>
+                            <li>Staff ...: </li>
+                        </ul>
+                    </td>
+                    <td class=" ">
+                        <ul>
+                            <li>Email: sedem.amekpewu.3@gmail.com</li>
+                            <li>Phone: 0546744163</li>
+                        </ul>
+                    </td>
+                    <td class="  btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-sm btn-white">
+                            View Details
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 
     <script src="../js/holder.min.js"></script>
