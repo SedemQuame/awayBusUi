@@ -151,11 +151,12 @@
                         </ul>
                     </td>
                     <td class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-sm btn-white">
+                        <button type="button" class="btn btn-sm btn-white" data-toggle="modal" data-target="#staffModal">
                             View Details
                         </button>
                     </td>
                 </tr>
+
                 <tr>
                     <td>
                         <div class="busContainer">
@@ -183,11 +184,12 @@
                         </ul>
                     </td>
                     <td class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-sm btn-white">
+                        <button type="button" class="btn btn-sm btn-white" data-toggle="modal" data-target="#staffModal">
                             View Details
                         </button>
                     </td>
                 </tr>
+
                 <tr>
                     <td>
                         <div class="busContainer">
@@ -215,20 +217,90 @@
                         </ul>
                     </td>
                     <td class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-sm btn-white">
+                        <button type="button" class="btn btn-sm btn-white" data-toggle="modal" data-target="#staffModal">
                             View Details
                         </button>
                     </td>
                 </tr>
+
             </tbody>
         </table>
     </div>
 
-    <script src="../js/holder.min.js"></script>
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/mdb.min.js"></script>
+    <!-- Staff Modal -->
+    <div class="modal fade" id="staffModal" tabindex="-1 " role="dialog " aria-labelledby="myModalLabel " aria-hidden="true ">
+
+        <!-- Change class .modal-sm to change the size of the modal -->
+        <div class="modal-dialog modal-lg " role="document ">
+
+            <div class="modal-content ">
+                <div class="modal-header bg-dark text-white ">
+                    <h4 class="modal-title w-100 " id="myModalLabel ">Staff Information</h4>
+                    <button type="button " class="close text-white " data-dismiss="modal " aria-label="Close ">
+                            <span aria-hidden="true ">&times;</span>
+                        </button>
+                </div>
+
+                <div class="modal-body ">
+                    <div class="row ">
+                        <div class="col-12 col-md-2 ">
+                            <div class="view overlay ">
+                                <img class="card-img-top " src="../img/gray.jpg " alt="Card image cap ">
+                                <a href="#! ">
+                                    <div class="mask rgba-white-slight "></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 ">
+                            <ul>
+                                <li>Staff Id</li>
+                                <li>Person's Name</li>
+                                <li>Date of Birth</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p>Contact Information</p>
+                    <hr>
+                    <div class="container-fluid ">
+                        <div class="row ">
+                            <div class="col-4 ">
+                                <ul>
+                                    <li>Phone Number</li>
+                                    <li>Email Address</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>Driver Stats</p>
+                    <hr>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-4">
+                                <ul>
+                                    <li>Driver License</li>
+                                    <li>Start Date</li>
+                                    <li>Driver Score</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer ">
+                    <button type="button " class="btn btn-dark btn-sm " data-dismiss="modal ">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Staff Modal -->
+
+    <script src="../js/holder.min.js "></script>
+    <script src="../js/jquery.min.js "></script>
+    <script src="../js/popper.min.js "></script>
+    <script src="../js/bootstrap.min.js "></script>
+    <script src="../js/mdb.min.js "></script>
 </body>
 
 </html>
