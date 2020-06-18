@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="notifications">
+                    <a class="nav-link" href="notifications.html">
                         Notifications
                     <span class="badge badge-danger ml-2">4</span>
                     </a>
@@ -89,16 +89,25 @@
         <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam necessitatibus perspiciatis cupiditate enim maxime eius soluta fuga, temporibus voluptates autem consequatur officia nulla labore cum dignissimos itaque aliquid possimus voluptatum!</p>
         <hr class="my-4">
         <div class="row">
-            <div class="col-12 col-md-8">
-                <div class="md-form input-group mb-4">
-                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="material-addon2">
-                    <div class="input-group-append">
+            <div class="col-12 col-md-6">
+                <span> </span>
+            </div>
+            <div class="holder col-12 col-md-6">
+                <!-- Search Forms -->
+                <form class="form-inline" action="" method="get">
+                    <div class="md-form mb-2 mr-sm-2">
+                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="material-addon2">
+                        <label for="materialLoginFormEmail">Search Route</label>
+                    </div>
+
+                    <div class="md-form mb-2 mr-sm-2">
                         <input id="material-addon2" class="btn btn-dark" type="submit" value="Search">
                     </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 text-right">
-                <a class="btn btn-dark" href="#">New Route</a>
+
+                    <div class="md-form mb-2 mr-sm-2">
+                        <a class="btn btn-dark" href="#">New Route</a>
+                    </div>
+                </form>
             </div>
         </div>
 
@@ -222,8 +231,6 @@
             </tbody>
         </table>
     </div>
-
-
 
     <script src="../js/holder.min.js"></script>
     <script src="../js/jquery.min.js"></script>

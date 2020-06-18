@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="notifications">
+                    <a class="nav-link" href="notifications.html">
                         Notifications
                     <span class="badge badge-danger ml-2">4</span>
                     </a>
@@ -90,31 +90,37 @@
         <hr class="my-4">
 
         <div class="row">
-            <div class="col-12 col-md-8">
-                <div class="md-form input-group mb-4">
-                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="material-addon2">
-                    <div class="input-group-append">
+            <div class="col-12 col-md-6">
+                <span> </span>
+            </div>
+            <div class="holder col-12 col-md-6">
+                <!-- Search Forms -->
+                <form class="form-inline" action="" method="get">
+                    <div class="md-form mb-2 mr-sm-2">
+                        <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="material-addon2">
+                        <label for="materialLoginFormEmail">Search Bus</label>
+                    </div>
+
+                    <div class="md-form mb-2 mr-sm-2">
                         <input id="material-addon2" class="btn btn-dark" type="submit" value="Search">
                     </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 text-right">
-                <a class="btn btn-dark" href="#">Create Bus</a>
+
+                    <div class="md-form mb-2 mr-sm-2">
+                        <a class="btn btn-dark" href="#">Create Bus</a>
+                    </div>
+                </form>
             </div>
         </div>
-
     </div>
-
-
 
     <div id="trip-list" class="container table-responsive text-nowrap">
         <table class="table table-striped">
             <thead class="black white-text">
                 <tr>
                     <th class="text-left" scope="col">Bus Image</th>
-                    <th class="text-center" scope="col">Name</th>
-                    <th class="text-center" scope="col">Staff Info</th>
-                    <th class="text-center" scope="col">Contact Info</th>
+                    <th class="text-center" scope="col">Drive Info</th>
+                    <th class="text-center" scope="col">Bus Info</th>
+                    <th class="text-center" scope="col">Recent Bus Review</th>
                     <th class="text-center" scope="col">Action</th>
                 </tr>
             </thead>
@@ -131,86 +137,55 @@
                             </div>
                         </div>
                     </td>
-                    <td class=" ">Sedem Quame Amekpewu</td>
+                    <td class="">
+                        <ul>
+                            <li>
+                                <span class="fieldName">Driver Name:</span>
+                                <span class="text-muted float-right">Sedem Quame Amekpewu</span>
+                            </li>
+                            <li>
+                                <span class="fieldName">License:</span>
+                                <span class="text-muted float-right">sjdfsdfjkshdfhsdkjh</span>
+                            </li>
+                            <li>
+                                <a href="#">View Driver Profile</a>
+                            </li>
+                        </ul>
+                    </td>
                     <td>
                         <ul>
-                            <li>Staff Id: ekhsjhfkhf4hk345334535</li>
-                            <li>Staff Type: Driver</li>
-                            <li>Staff ...: </li>
+                            <li>
+                                <span class="fieldName">Seating Capacity</span>
+                                <span class="text-muted float-right">34</span>
+                            </li>
+                            <li>
+                                <span class="fieldName">Bus Speed</span>
+                                <span class="text-muted float-right">65 Mph</span>
+                            </li>
+                            <li>
+                                <span class="fieldName">Cargo Volume</span>
+                                <span class="text-muted float-right">30m/3</span>
+                            </li>
+                            <li>
+                                <span class="fieldName">Acceleration Time</span>
+                                <span class="text-muted float-right">30m/3</span>
+                            </li>
                         </ul>
                     </td>
                     <td class=" ">
                         <ul>
-                            <li>Email: sedem.amekpewu.3@gmail.com</li>
-                            <li>Phone: 0546744163</li>
+                            <li>
+                                Lorem ipsum dolor sit amet
+                                <br> consectetur adipisicing elit.
+                            </li>
+                            <li>
+                                Lorem ipsum dolor sit amet
+                                <br> consectetur adipisicing elit.
+                            </li>
                         </ul>
                     </td>
                     <td class="  btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-sm btn-white">
-                            View Details
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="busContainer">
-                            <!-- Card image -->
-                            <div class="view overlay">
-                                <img class="card-img-top" src="../img/gray.jpg" alt="Card image cap">
-                                <a href="#!">
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-                        </div>
-                    </td>
-                    <td class=" ">Sedem Quame Amekpewu</td>
-                    <td>
-                        <ul>
-                            <li>Staff Id: ekhsjhfkhf4hk345334535</li>
-                            <li>Staff Type: Driver</li>
-                            <li>Staff ...: </li>
-                        </ul>
-                    </td>
-                    <td class=" ">
-                        <ul>
-                            <li>Email: sedem.amekpewu.3@gmail.com</li>
-                            <li>Phone: 0546744163</li>
-                        </ul>
-                    </td>
-                    <td class="  btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-sm btn-white">
-                            View Details
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="busContainer">
-                            <!-- Card image -->
-                            <div class="view overlay">
-                                <img class="card-img-top" src="../img/gray.jpg" alt="Card image cap">
-                                <a href="#!">
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-                        </div>
-                    </td>
-                    <td class=" ">Sedem Quame Amekpewu</td>
-                    <td>
-                        <ul>
-                            <li>Staff Id: ekhsjhfkhf4hk345334535</li>
-                            <li>Staff Type: Driver</li>
-                            <li>Staff ...: </li>
-                        </ul>
-                    </td>
-                    <td class=" ">
-                        <ul>
-                            <li>Email: sedem.amekpewu.3@gmail.com</li>
-                            <li>Phone: 0546744163</li>
-                        </ul>
-                    </td>
-                    <td class="  btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-sm btn-white">
+                        <button type="button" class="btn btn-sm btn-white" data-toggle="modal" data-target="#busInfoModal">
                             View Details
                         </button>
                     </td>
@@ -219,6 +194,80 @@
         </table>
     </div>
 
+
+
+    <!-- Bus Information Modal -->
+    <div class="modal fade" id="busInfoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+        <!-- Change class .modal-sm to change the size of the modal -->
+        <div class="modal-dialog modal-lg" role="document">
+
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h4 class="modal-title w-100" id="myModalLabel">Detailed Bus Information</h4>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-md-2">
+                            <div class="view overlay">
+                                <img class="card-img-top" src="../img/gray.jpg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <ul>
+                                <li>Driver Name</li>
+                                <li>License Information</li>
+                                <li>
+                                    <a href="#"> View Driver Information </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p>Bus MetaData</p>
+                    <hr>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-4">
+                                <ul>
+                                    <li>Seating Capacity</li>
+                                    <li>Bus Speed</li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <ul>
+                                    <li>Cargo Volume</li>
+                                    <li>Acceleration</li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <ul>
+                                    <li>Fuel Type</li>
+                                    <li>Fuel Capacity</li>
+                                    <li>Fuel Consumption</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>Bus Reviews</p>
+                    <hr>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-sm" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bus Information Modal -->
 
     <script src="../js/holder.min.js"></script>
     <script src="../js/jquery.min.js"></script>

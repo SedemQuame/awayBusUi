@@ -39,10 +39,6 @@
     min-height: 370px;
 }
 
-div {
-    margin-bottom: 10px;
-}
-
 .signUp {
     margin-top: 3vh;
 }
@@ -59,4 +55,18 @@ div {
 .card-img-top {
     width: 120px;
     height: 80px;
+}
+
+.fieldName {}
+
+
+/* Tags */
+
+div {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
 }
